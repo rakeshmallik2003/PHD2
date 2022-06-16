@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&family=Overpass:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* colors */
+:root{
+    --black-color:#000;
+     --white-color:#fff;
+     --background-color: #3fc6b1;
+     --background-color-button:#666666;
+     --footer-color:#2da89b;
+     --gray:#a1a1a1;
+ }
+ /* header fil */
+header{
+    width: 1440px;
+    height: 1248px;
+    margin: auto;
+    background-image: url(image/3401423-100.png);
+    padding-top:80px;
+}
+.man{
+   
+    width: 1440px;
+    height: 140px;
+    background-color: var(--background-color-button);
+    display: block;
+  
+}
+
+.man ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 1220px;
+    height: 140px;
+    margin: auto;
+   
+}
+.man ul li a{
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 25px;
+    font-weight: 400px;
+}
+.second{
+    width: 1440px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.second .first{
+    width: 720px;
+    height: auto;
+    margin-top: 30px;
+}
+.second .two{
+    width: 720px;
+    height: auto;
+   
+    padding-top: 210px;
+}
+.second .two h1{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Chivo', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.second .two h2{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Chivo', sans-serif;
+    text-transform: uppercase;
+    padding-left: 40px;
+    color: #fff;
+}
+.second .two p{
+    color: #ffcc00;
+    font-size: 37px;
+    font-weight: 400;
+    padding-left: 250px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.second .two img{
+    padding-left:  400px;
+    padding-top: 120px;
+    padding-right: 150px;
+    
+}
+.second .two h3{
+    background: rgb(102,102,102);
+    background: linear-gradient(90deg, rgba(102,102,102,0.33657212885154064) 24%, rgba(102,102,102,0.9752275910364145) 62%);
+   padding-left: 250px;
+    margin-top: 200px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Chivo', sans-serif;
+    width: 720px;
+   color: #fff;
+}
+/* .three */
+.three{
+    width: 1440px;
+    height: 900px;
+    margin: auto;
+    background-image: url(image/3401423-12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -50px
+}
+.three p{
+    font-size: 50px;
+    color: #ffcc00;
+    padding-top: 200px;
+    padding-left: 70px;  
+}
+.three p .fa-brands, .fab{
+    font-size: 70px;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+.three h4{
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    padding-left: 40px;
+    color: #fff;
+    
+}
+.three h3{
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    padding-left: 90px;
+    color: #fff;
+}
+.three h1{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    padding-left: 200px;
+    padding-top: 90px;
+}
+.four{
+    width: 1440px;
+    height: 1130px;
+    margin: auto;
+    background-image: url(image/3401423-14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -45px;
+     display: flex;
+     justify-content: space-around;
+}
+.four .img{
+    width: 720px;
+    height: auto;
+    padding-left: 100px;
+
+}
+.four .tex{
+    width: 720px;
+    height: auto;
+    color: #fff;
+}
+.four .tex h1{
+    font-size: 54px;
+    padding-top: 350px;
+    margin-left: -25px;
+    font-family: 'Overpass', sans-serif;
+    padding-bottom: 30px;
+    color: #ffcc00;
+}
+.four .tex .ss{
+    font-size: 60px;
+    padding: 30px;
+    color: #ffcc00;
+}
+.four .tex p{
+    font-size: 23px;
+    font-family: 'Overpass', sans-serif;
+}
+.four .tex h4{
+    font-size: 23px;
+    padding-left: 60px;
+    font-family: 'Overpass', sans-serif;
+}
+.four .tex h2{
+    margin-top: 200px;
+    padding-left: 40px;
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Chivo', sans-serif
+}
+.four .tex h3{
+    color: #ffcc00;
+    font-size: 35px;
+    padding-left: 90px;
+}
+/* five */
+.five{
+    width: 1440px;
+    height: 1248px;
+    margin: auto;
+    background-image: url(image/3401423-81.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.five h1{
+    font-size: 55px;
+    text-align: center;
+    color: #ffcc00;
+    text-transform: uppercase;
+    padding: 40px;
+}
+.five .rr{
+    padding: 40px;
+}
+.five img{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+/* six */
+.six{
+    width: 1440px;
+    height: 1060px;
+    margin: auto;
+    background-image: url(image/3401423-90-.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.six p{
+   text-align: center;
+   font-size: 55px;
+   color: #ffcc00;
+   padding-top: 60px;
+   font-family: 'Chivo', sans-serif
+}
+.six .uu{
+    padding: 40px;
+}
+.six h6{
+    font-size: 38px;
+    text-align: center;
+    color: #fff;
+    padding-top: 39px;
+    font-family: 'Overpass', sans-serif;
+}
+.six form{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 50px;
+}
+.six form label{
+    padding: 30px;
+    line-height: 4;
+}
+.six form label input{
+    padding: 10px 20px;
+    border-color: #ffcc00;
+    background-color: #000;
+    color: #fff;
+
+}
+.six form button{
+    padding: 10px 70px;
+    font-size: 30px;
+    background-color: #ffcc00;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+.sevan{
+    width: 1440px;
+    height: 1020px;
+    margin: auto;
+    background: url(image/3401423-800.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+}
+.eaght{
+    width: 1440px;
+    height: 378px;
+    margin: auto;
+    background-image: url(image/3401423-901.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    position: relative;
+   
+ 
+ }
+ /* .imga{
+    width: 200px;
+    height: 378px;
+    background-image: url(image/3401423-9001.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    margin-top: -15px;
+    display: block;
+    padding-left: 1240px; 
+   
+} */
+.eaght .oo{
+    font-size: 60px;
+    color: #ffcc00;
+   padding-left: 715px;
+   margin-bottom: 30px;
+  margin-top: 30px;
+   
+}
+.eaght p{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.eaght h3{
+    text-align: center;
+    font-size: 34px;
+    color: #ffcc00;
+    text-transform: uppercase;
+    font-family: 'Overpass', sans-serif;
+}
+/* nine */
+.nine{
+    width: 1440px;
+    height: 650px;
+   margin: auto;
+   background-color: #000;
+   display: flex;
+   justify-content: space-between;
+}
+.nine .one{
+    width: 710px;
+    height: 650px;
+    text-align: center;
+    color: #fff;
+}
+.nine .one h1{
+    font-size: 50px;
+    padding-top: 170px;
+    color: #ffcc00;
+
+}
+.nine .one p{
+    font-size: 25px;
+    padding-top: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 200;
+}
+.nine .one h3{
+    font-size: 40px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    padding-top: 40px;
+    color: #ffcc00;
+
+}
+.nine .two{
+    width: 710px;
+    height: 650px;
+    background-image: url(image/3401423-4444.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.ten{
+    width: 1440px;
+    height: 480px;
+    margin: auto;
+    background-color: #000;
+}
+.ooooo{
+    text-align: center;
+    color: #ffcc00;
+    padding-top: 50px;
+}
+.end{
+    text-align: center; 
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+.end ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.end ul li a{
+    color: var(--white-color);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Chivo', sans-serif;
+    font-size: 20px;
+    
+}
+.end ul li {
+    padding: 40px;
+}
+.come{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding: 20px;
+}
+.come .ii{
+    padding: 20px;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+}
+hr{
+    color: #ffcc00;
+}
+.pppp{
+    width: 1440px;
+    margin: auto;
+}
